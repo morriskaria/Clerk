@@ -1,0 +1,14 @@
+{
+  "environmentVariables": [
+    {
+      "name": "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
+      "value": "pk_test_...",
+      "description": "Your Clerk publishable key from the Clerk Dashboard"
+    },
+    {
+      "name": "CLERK_SECRET_KEY",
+      "value": "sk_test_...",
+      "description": "Your Clerk secret key from the Clerk Dashboard"
+    }
+  ]
+}

@@ -1,41 +1,81 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+```
+# Dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Environment variables
+.env
+.env.local
+*.env.*
 
-# testing
-/coverage
+# Build outputs
+dist/
+build/
+target/
 
-# next.js
-/.next/
-/out/
+# Cache directories
+.cache/
+.node_cache/
+.npm/
+.yarn/
 
-# production
-/build
+# Logs
+*.log
 
-# misc
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
 .DS_Store
-*.pem
+Thumbs.db
 
-# debug
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+.DS_Store
+*.swp
+*~
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Node.js specific
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+.coverage/
+.npm/
+.nvmrc
+.yarnrc
+.yarn/
+package-lock.json
+```
